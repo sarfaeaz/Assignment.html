@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px;;
+}
+.logo{
+
+    flex: 70%;
+}
+.nev{
+    flex:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu:hover{
+    background-color:blue;
+    color: aliceblue;
+}
+.bg-image{
+    height:200;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 155px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+}
+.card{
+    animation: ;
+}
